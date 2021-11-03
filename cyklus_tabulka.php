@@ -1,7 +1,11 @@
 <?php
 /*
  * cyklus
- * 1. V html tabulce vypište pro všechny prvky pole tabulky ve formě: Pořadové číslo | Stát | Hlavní město
+ * 1. Vytvořte tabulku, která bude obsahovat tři sloupce a n řádků. Obsah tabulky bude tvořen obsahem pole $city. Obsah každé buňky bude ve tvaru Pořadové číslo. Stát - Hlavní město
+ * Příklad výstupu:
+ * | Stát - hlavní město | Stát - hlavní město 		| Stát - hlavní město  |
+ * |1. Italy - Rome 	 |2. Luxembourg - Luxembourg    |3. Belgium - Brussels |
+ *
  * 2. Tabulku setřiďte vzestupně dle názvu státu (A-Z)
  *
  */
