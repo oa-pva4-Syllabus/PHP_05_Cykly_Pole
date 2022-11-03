@@ -4,7 +4,8 @@
  * Od 1.1.2020 každý měsíc nakupujete bitcoin v odpovídající výši 50 USD.
  * Nákupní cena za 1 BTC je uložena v poli $prices. Hodnota uvedena v USD. Pole je seřazené dle pořadového čísla nákupu.
  *
- * Vypočítejte s využitím cyklů průměrnou, minimální, maximulní nákupní cenu a celkovou hodnotu svého portfólia v BTC i USD.
+ * a) Vypočítejte s využitím cyklů celkovou hodnotu svého portfólia v BTC i USD
+ * b) Vypočítejte průměrnou, minimální, maximulní nákupní cenu ve svém portfóliu.
  *
  */
 
