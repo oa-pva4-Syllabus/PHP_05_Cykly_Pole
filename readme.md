@@ -4,6 +4,6 @@
 ## Obsah
 
 1. Měsíc
-2. Bitcoin
-3. Tabulka
-4. Auta
+2. Tabulka
+3. Auta
+4. Bitcoin
