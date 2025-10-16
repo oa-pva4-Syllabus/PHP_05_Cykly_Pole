@@ -6,6 +6,6 @@ Zkopírujte si řešení z minulého souboru. Vytvořte pro každý dílčí úk
 ## Obsah
 
 1. Měsíc
-2. Tabulka
-3. Auta
+2. Auta
+3. Tabulka
 4. Bitcoin
