@@ -4,14 +4,24 @@
  * Od 1.1.2020 každý měsíc nakupujete bitcoin vždy výši 50 USD.
  * Nákupní cena za 1 BTC je uložena v poli $prices. Hodnota uvedena v USD. Pole je seřazené dle pořadového čísla nákupu.
  *
- * Veškeré výstupy naformátujte uživateli v graficky přívětivé podobě.
+ * Veškeré výstupy naformátujte uživateli v graficky přívětivé podobě. Data v tabulkách, výpočty, grafy.
  *
  * a) Vypočítejte s využitím cyklů, kolik BTC vlastníte.
  * b) Jaká byla průměrná roční cena BTC?
- * c) Jaká je hodnota Vašeho portfólia v USD a CZK?
+ * c) Jaká je hodnota Vašeho portfólia v USD a CZK? Použijte aktuální měsíční kurz.
  * d) Vypočítejte KPI ukazatele portfólia - průměrnou, minimální, maximulní nákupní cenu ve svém portfóliu.
  * e) Spočítejte, alternativní strategii. Pokud by nákupní cena byla pod Vaši průměrné aktuální nákupní cenou, koupili by jste vždy dvojnásobek BTC. Kolik budete mít koupených BTC a jak se změní KPI ukazatele?
  *
+ */
+
+/**
+ * Očekávané hodnoty
+ *
+ * a) Celkové BTC: 0.12358260325442
+ * b) Průměrná roční cena BTC: ... [2020: 13201.3, 2021: 49992.4, 2022: 28904.3, 2023: 30373.6, 2024: 63845.3]
+ * c) Hodnota portfolia: $7930.47 / 185572.97 Kč
+ * d) KPI: průměrná cena $23466.09, min $6412.5, max $71332
+ * e) Alternativní strategie: BTC=0.20106744516567, průměrná cena $19396.48
  */
 
 $bitcoinPrices = [
@@ -75,14 +85,15 @@ $bitcoinPrices = [
     '2024-10' => 64171.40
 ];
 
-// reseni:
-
-
 
 
 
 /**
- * Spočítejte jaká vliv by měl na KPI, pokud by jste každý měsíc koupili na Low a Hight cenách.
+ * Zobrazte na stránce finanční graf vývoje ceny.
+ * Zdroje:
+ * - https://adminlte.io/themes/v3/pages/charts/chartjs.html
+ * - https://www.chartjs.org/
+ * - https://github.com/chartjs/chartjs-chart-financial/tree/master/docs
  */
 
 $marketData = [
@@ -147,6 +158,5 @@ $marketData = [
    
 ];
 
-// reseni:
 
 ?>
